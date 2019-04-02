@@ -14,6 +14,7 @@
 		53946C782253C56700789743 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53946C762253C56700789743 /* LaunchScreen.storyboard */; };
 		53946C832253C56700789743 /* FacebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53946C822253C56700789743 /* FacebookTests.swift */; };
 		53946C8E2253C56700789743 /* FacebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53946C8D2253C56700789743 /* FacebookUITests.swift */; };
+		53B51E372253CFEA007819F9 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B51E362253CFEA007819F9 /* testViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		53946C892253C56700789743 /* FacebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53946C8D2253C56700789743 /* FacebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookUITests.swift; sourceTree = "<group>"; };
 		53946C8F2253C56700789743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53B51E362253CFEA007819F9 /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				53946C6D2253C56600789743 /* AppDelegate.swift */,
+				53B51E362253CFEA007819F9 /* testViewController.swift */,
 				53946C6F2253C56600789743 /* ViewController.swift */,
 				53946C712253C56600789743 /* Main.storyboard */,
 				53946C742253C56700789743 /* Assets.xcassets */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53B51E372253CFEA007819F9 /* testViewController.swift in Sources */,
 				53946C702253C56600789743 /* ViewController.swift in Sources */,
 				53946C6E2253C56600789743 /* AppDelegate.swift in Sources */,
 			);

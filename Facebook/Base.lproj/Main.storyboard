@@ -25,8 +25,7 @@
                                     <color key="titleColor" red="1" green="0.25576395188593415" blue="0.22254504416692655" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <action selector="goodBye:" destination="BYZ-38-t0r" eventType="touchUpInside" id="laS-iz-vjv"/>
-                                    <segue destination="afP-1m-IXe" kind="popoverPresentation" popoverAnchorView="KUp-Eo-3Lf" id="lNW-K5-UZE">
+                                    <segue destination="afP-1m-IXe" kind="popoverPresentation" popoverAnchorView="KUp-Eo-3Lf" id="IvR-qY-q0b">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -39,10 +38,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Test View Controller-->
         <scene sceneID="X9q-2P-pPn">
             <objects>
-                <viewController id="afP-1m-IXe" sceneMemberID="viewController">
+                <viewController id="afP-1m-IXe" customClass="testViewController" customModule="Facebook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OCB-yO-wgr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
